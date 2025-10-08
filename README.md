@@ -47,6 +47,7 @@
 ## Tilten (Tilt): Neigung nach oben und unten
 ## Zoomen: Veränderung des Sichtfeldes (Vergrößern oder Verkleinern)
 ## ➡️ Eine PTZ-Kamera kann also den Bereich dynamisch anpassen, den sie überwachen möchte — z. B. einem Objekt folgen oder ein Verkehrsschild näher heranzoomen.
+
 ## Mehrkamerasysteme, Erkennungsfachbereiche und Kanten
 ### Mehrkamerasysteme: Moderne Fahrzeuge haben mehrere Kameras (z. B. vorne, hinten, seitlich, oben) : Dadurch entsteht ein rundum-360°-Blickfeld.
 ### Die Daten mehrerer Kameras werden kombiniert („Sensorfusion“), um ein vollständiges Bild der Umgebung zu erhalten.
@@ -54,13 +55,29 @@
 ### Erkennungsfachbereiche: Jede Kamera deckt einen bestimmten Erkennungsbereich ab (z. B. Frontkamera für Spur und Verkehrsschilder, Rückkamera für Einparken). Zusammen decken sie alle wichtigen Sichtfelder ab.
 ### Kanten: In der Bildverarbeitung sind „Kanten“ die Übergänge zwischen hell und dunkel, also Objektgrenzen. Kanten werden erkannt, um Formen, Fahrbahnmarkierungen oder Hindernisse zu identifizieren.
 
-### Entefrnungskammera, Stereokammera
+## Entfernungskamera / Stereokamera :
+### Eine Entfernungskamera misst, wie weit ein Objekt entfernt ist. Eine Stereokamera besteht aus zwei Kameras, die wie menschliche Augen leicht versetzt angebracht sind.
+## → Durch den Vergleich der beiden Bilder (Disparität) kann die Tiefe (Abstand) berechnet werden.
+### → Anwendung: Abstandserkennung, 3D-Rekonstruktion, Hinderniserkennung.
 
-## Distanzkammera
-### 3D- Absandsprofil
-### Time-of-Flight messung mit laser. 
-#### Alternativ dazu :
-### Mustererkennung : spielconsolen, 
+## Distanzkamera
+### Eine Distanzkamera (oder Tiefenkamera) liefert ein 3D-Abstandsprofil – also ein Bild, in dem jeder Pixel nicht nur Helligkeit, sondern auch Entfernung enthält.
+### 3D-Abstandsprofil: Jedes Pixel gibt an, wie weit der Punkt in der Realität entfernt ist. Ergebnis: Eine Punktwolke (Point Cloud) oder Tiefenkarte (Depth Map).
+
+
+## Time-of-Flight messung mit laser. 
+### Bei der Time-of-Flight-Technik wird ein Laserimpuls ausgesendet.
+### Die Kamera misst, wie lange das Licht braucht, um vom Objekt zurückzukommen.
+### Aus der Laufzeit des Lichts wird der Abstand berechnet. Distnaz = c x t / 2
+####  → Vorteil: Sehr genaue und schnelle Tiefenmessung. 
+#### → Nachteil: Funktioniert schlechter bei sehr heller Sonne oder spiegelnden Oberflächen.
+## Alternativ dazu :
+## Alternativ: Mustererkennung (Structured Light)
+### Hier wird kein Zeitunterschied gemessen, sondern ein Lichtmuster (z. B. Punkte oder Gitter) auf die Szene projiziert.
+### Eine Kamera beobachtet, wie sich das Muster verformt → daraus wird die Tiefe berechnet.
+### Anwendung: z. B. bei Spielkonsolen (Microsoft Kinect, PlayStation Camera) zur Bewegungserkennung. 
+
+<img width="1582" height="480" alt="image" src="https://github.com/user-attachments/assets/eadfb59a-1150-4f9a-87c5-cd50f3800e3b" />
 
 ## Radar: 
 ### Entfernungsmessung mit Elektromagnetischen Wellen.
