@@ -100,9 +100,13 @@
 # Radar: 
 ## Ein Radar (Radio Detection and Ranging) misst die Entfernung (Distanz) zu einem Objekt, indem es elektromagnetische Wellen (meist im Mikrowellenbereich) aussendet und das Echo misst, das vom Objekt zurückkommt.
 ## Das Radar sendet eine Welle aus.
-### Diese Welle trifft auf ein Objekt und wird reflektiert. Das Radar empfängt die reflektierte Welle. Aus der Laufzeit zwischen Senden und Empfangen kann man die Entfernung berechnen: d = c x t / 2
-### Variation der Frequnezen, 
-### nicthvernachlässigbar klein Relativgeschwindigkeit: Erkären Sie ....
+### Diese Welle trifft auf ein Objekt und wird reflektiert. Das Radar empfängt die reflektierte Welle. Aus der Laufzeit zwischen Senden und Empfangen kann man die Entfernung berechnen: d = c x t / 2.
+### In modernen Radarsystemen wird oft die Frequenz der ausgesendeten Wellen variiert – z. B. bei FMCW-Radar (Frequency Modulated Continuous Wave). Dabei wird die Frequenz der gesendeten Welle kontinuierlich verändert (z. B. in einer Sägezahn- oder Dreiecksform).Wenn das reflektierte Signal zurückkommt, vergleicht man seine Frequenz mit der gerade gesendeten Frequenz. Der Frequenzunterschied (Beat-Frequenz) ist proportional zur Entfernung. So kann man Entfernung und Geschwindigkeit gleichzeitig bestimmen.
+### Wenn sich das Objekt auf das Radar zubewegt, steigt die empfangene Frequenz. Wenn es sich entfernt, sinkt sie. Diese Frequenzverschiebung nennt man Doppler-Shift.
+### nicthvernachlässigbar klein Relativgeschwindigkeit: Wenn sich das Zielobjekt relativ zum Radar bewegt (z. B. ein Auto, Flugzeug, Drohne), ändert sich die Frequenz der reflektierten Welle durch den Doppler-Effekt.
+#### 1-Wenn sich das Objekt auf das Radar zubewegt, steigt die empfangene Frequenz.
+#### 2- Wenn es sich entfernt, sinkt sie. Diese Frequenzverschiebung nennt man Doppler-Shift.
+<img width="487" height="231" alt="image" src="https://github.com/user-attachments/assets/2c7b19bd-a9f9-41b7-ad60-ceab79404657" />
 
 
 ## GNSS
