@@ -98,7 +98,9 @@
 <img width="1582" height="480" alt="image" src="https://github.com/user-attachments/assets/eadfb59a-1150-4f9a-87c5-cd50f3800e3b" />
 
 # Radar: 
-### Entfernungsmessung mit Elektromagnetischen Wellen.
+## Ein Radar (Radio Detection and Ranging) misst die Entfernung (Distanz) zu einem Objekt, indem es elektromagnetische Wellen (meist im Mikrowellenbereich) aussendet und das Echo misst, das vom Objekt zurückkommt.
+## Das Radar sendet eine Welle aus.
+### Diese Welle trifft auf ein Objekt und wird reflektiert. Das Radar empfängt die reflektierte Welle. Aus der Laufzeit zwischen Senden und Empfangen kann man die Entfernung berechnen: d = c x t / 2
 ### Variation der Frequnezen, 
 ### nicthvernachlässigbar klein Relativgeschwindigkeit: Erkären Sie ....
 
