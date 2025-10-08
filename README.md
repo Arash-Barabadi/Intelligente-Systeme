@@ -65,14 +65,14 @@
 ### 3D-Abstandsprofil: Jedes Pixel gibt an, wie weit der Punkt in der Realität entfernt ist. Ergebnis: Eine Punktwolke (Point Cloud) oder Tiefenkarte (Depth Map).
 
 
-## Time-of-Flight messung mit laser. 
+## TOF Kamera: Time-of-Flight messung mit laser. 
 ### Bei der Time-of-Flight-Technik wird ein Laserimpuls ausgesendet.
 ### Die Kamera misst, wie lange das Licht braucht, um vom Objekt zurückzukommen.
 ### Aus der Laufzeit des Lichts wird der Abstand berechnet. Distnaz = c x t / 2
 ####  → Vorteil: Sehr genaue und schnelle Tiefenmessung. 
 #### → Nachteil: Funktioniert schlechter bei sehr heller Sonne oder spiegelnden Oberflächen.
-## Alternativ dazu :
-## Alternativ: Mustererkennung (Structured Light)
+
+## Mustererkennung (Structured Light)
 ### Hier wird kein Zeitunterschied gemessen, sondern ein Lichtmuster (z. B. Punkte oder Gitter) auf die Szene projiziert.
 ### Eine Kamera beobachtet, wie sich das Muster verformt → daraus wird die Tiefe berechnet.
 ### Anwendung: z. B. bei Spielkonsolen (Microsoft Kinect, PlayStation Camera) zur Bewegungserkennung. 
