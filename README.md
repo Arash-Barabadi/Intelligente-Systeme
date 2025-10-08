@@ -1,10 +1,16 @@
 # Intelligente-Systeme
 
+# Multisensorik
 
-## Laser scanner
+# Laser scanner
 ### Ein Laserscanner (oder  LIDAR) ist ein Sensor, der Entfernungen zu Objekten misst, indem er Lichtimpulse aussendetund die Reflexion (also das zurückkommende Licht) misst. 
 
-### Entefernungsmessung mit Laser licht
+## Entfernungsmessung mit Laserlicht
+### Der Scanner sendet Laserstrahlen aus. Diesen treffen auf ein Objekt und werden zurückreflektiert. Aus der Zeit, die der Lichstrahl brauch, um hin und zurück zu kommen (Laufzeitmessung), wird die entfernung berechnet. 
+
+## Entfernung = c x t / 2  
+### c : Lichtgeschwindigkeit, t: gemessene Laufzeit. 
+
 
 ### Öffnungswinkel vernachlässigbar
 ### Reflektor erkenung 
