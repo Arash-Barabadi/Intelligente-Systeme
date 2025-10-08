@@ -2,7 +2,10 @@
 
 
 ## Laser scanner
+### Ein Laserscanner (oder  LIDAR) ist ein Sensor, der Entfernungen zu Objekten misst, indem er Lichtimpulse aussendetund die Reflexion (also das zurückkommende Licht) misst. 
+
 ### Entefernungsmessung mit Laser licht
+
 ### Öffnungswinkel vernachlässigbar
 ### Reflektor erkenung 
 
