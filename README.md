@@ -42,7 +42,6 @@
 
 <img width="500" height="375" alt="image" src="https://github.com/user-attachments/assets/71d9bb67-77e9-4f5d-9844-a5c02c1a5f18" />
 
-
 ## Fahrbilder, Pendeln–Tilten–Zoomen: Fahrbilder → Das sind die Bilder, die die Kamera während der Fahrt aufnimmt.
 ## Sie dienen zur Analyse der Straße, Objekte, Verkehrsschilder usw.
 ## Pendel–Tilten–Zoomen (PTZ) → Das beschreibt die Bewegungsarten einer beweglichen Kamera:
@@ -65,7 +64,6 @@
 <img width="850" height="567" alt="image" src="https://github.com/user-attachments/assets/07e5fc21-c480-4455-aaa8-911b2216a06f" />
 
 
-
 ## → Durch den Vergleich der beiden Bilder (Disparität) kann die Tiefe (Abstand) berechnet werden.
 ### → Anwendung: Abstandserkennung, 3D-Rekonstruktion, Hinderniserkennung.
 
@@ -80,15 +78,20 @@
 #### → Nachteil: Funktioniert schlechter bei sehr heller Sonne oder spiegelnden Oberflächen.
 
 <img width="410" height="320" alt="image" src="https://github.com/user-attachments/assets/4aaca847-43be-45cd-b6fa-b6ebc4918604" />
-
 <img width="540" height="360" alt="image" src="https://github.com/user-attachments/assets/c9ea8aca-eba3-42be-ab04-23c3372f9626" />
 
 
-## Mustererkennung (Structured Light)
+## Mustererkennung (Structured Light) Kamera
 ### Hier wird kein Zeitunterschied gemessen, sondern ein Lichtmuster (z. B. Punkte oder Gitter) auf die Szene projiziert.
 ### Eine Kamera beobachtet, wie sich das Muster verformt → daraus wird die Tiefe berechnet.
 ### Anwendung: z. B. bei Spielkonsolen (Microsoft Kinect, PlayStation Camera) zur Bewegungserkennung. 
-### 
+
+<img width="370" height="370" alt="image" src="https://github.com/user-attachments/assets/92ace76c-0d5e-4a56-bd58-5046aa5c8bb6" />
+<img width="618" height="410" alt="image" src="https://github.com/user-attachments/assets/48132701-c6f4-4d3d-8b0c-a32ee209160e" />
+<img width="250" height="202" alt="image" src="https://github.com/user-attachments/assets/e3a0e736-d1e9-47b7-bbc5-ec53e4e87f8d" />
+
+
+## Zusammengefasst:
 
 <img width="1582" height="480" alt="image" src="https://github.com/user-attachments/assets/eadfb59a-1150-4f9a-87c5-cd50f3800e3b" />
 
