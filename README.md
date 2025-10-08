@@ -2,7 +2,7 @@
 
 # Multisensorik
 
-# Laser scanner
+# Laser scanner (LIDAR)
 ### Ein Laserscanner (oder  LIDAR) ist ein Sensor, der Entfernungen zu Objekten misst, indem er Lichtimpulse aussendet und die Reflexion (also das zurückkommende Licht) misst. 
 
 ## Entfernungsmessung mit Laserlicht
@@ -76,10 +76,11 @@
 ### Hier wird kein Zeitunterschied gemessen, sondern ein Lichtmuster (z. B. Punkte oder Gitter) auf die Szene projiziert.
 ### Eine Kamera beobachtet, wie sich das Muster verformt → daraus wird die Tiefe berechnet.
 ### Anwendung: z. B. bei Spielkonsolen (Microsoft Kinect, PlayStation Camera) zur Bewegungserkennung. 
+### 
 
 <img width="1582" height="480" alt="image" src="https://github.com/user-attachments/assets/eadfb59a-1150-4f9a-87c5-cd50f3800e3b" />
 
-## Radar: 
+# Radar: 
 ### Entfernungsmessung mit Elektromagnetischen Wellen.
 ### Variation der Frequnezen, 
 ### nicthvernachlässigbar klein Relativgeschwindigkeit: Erkären Sie ....
