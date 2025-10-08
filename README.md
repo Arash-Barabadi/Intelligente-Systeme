@@ -75,11 +75,11 @@
 
 
 ## TOF Kamera: Time-of-Flight messung mit laser. 
-### Bei der Time-of-Flight-Technik wird ein Laserimpuls ausgesendet.
-### Die Kamera misst, wie lange das Licht braucht, um vom Objekt zurückzukommen.
-### Aus der Laufzeit des Lichts wird der Abstand berechnet. Distnaz = c x t / 2
+### Bei der Time-of-Flight-Technik wird ein Laserimpuls ausgesendet. Die Kamera misst, wie lange das Licht braucht, um vom Objekt zurückzukommen. Aus der Laufzeit des Lichts wird der Abstand berechnet. Distnaz = c x t / 2
 ####  → Vorteil: Sehr genaue und schnelle Tiefenmessung. 
 #### → Nachteil: Funktioniert schlechter bei sehr heller Sonne oder spiegelnden Oberflächen.
+
+<img width="410" height="320" alt="image" src="https://github.com/user-attachments/assets/4aaca847-43be-45cd-b6fa-b6ebc4918604" />
 
 ## Mustererkennung (Structured Light)
 ### Hier wird kein Zeitunterschied gemessen, sondern ein Lichtmuster (z. B. Punkte oder Gitter) auf die Szene projiziert.
