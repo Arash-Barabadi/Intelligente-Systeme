@@ -21,7 +21,6 @@
 
 ## Wie funktioniert er allgemein
 ### Der Laser schickt mehrere Strahlen in verschiedene Richtungen (meist durch rotierende Spiegel oder Drehbewegung). So wird die gesamte Umgebung Zeile für Zeile abgetastet und eine 3D-Punktwolke erstellt, die die Umgebung beschreibt.
-## Begrenzung von Laser Skanner : ?? , Stäkers des Laser ist das problem, Bei Glass gibt es Reflektionsproblem, Steht bei Cross talk weniger als Radar. 
 
 ## Begrenzungen des Laserscanners
 ### 1-Leistung des Lasers (Stärke)
