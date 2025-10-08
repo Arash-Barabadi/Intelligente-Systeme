@@ -32,7 +32,11 @@
 ### 3- Cross Talk (Signalüberschneidung)
 #### Wenn mehrere Laserscanner in der Nähe arbeiten, können ihre Signale sich überlagern. Dieses Problem ist geringer als bei Radar, weil Laser sehr gerichtete Strahlen haben.
 
-### Wie kann man Reflektionsproblem bei Laser skanner lösen? 
+### Wie kann man das Reflektionsproblem lösen?
+### Filterung und Signalverarbeitung: Software kann schwache oder doppelte Reflexionen erkennen und herausfiltern.
+### Neigung des Sensors ändern: Ein leicht schräger Winkel reduziert Reflexionen auf Glasoberflächen.
+### Kombination mit anderen Sensoren: LIDAR + Kamera oder Radar → Sensorfusion hilft, Glas oder transparente Objekte besser zu erkennen.
+### Wellenlänge anpassen: Bestimmte Wellenlängen (z. B. im nahen Infrarotbereich) haben weniger Probleme mit Reflexionen.
 
 ## Fahrkamera :
 ### fAHRBILDER, Pendl-Tilten-zoomen.
