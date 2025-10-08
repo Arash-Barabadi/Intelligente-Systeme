@@ -9,7 +9,7 @@
 ### Der Scanner sendet Laserstrahlen aus. Diesen treffen auf ein Objekt und werden zurückreflektiert. Aus der Zeit, die der Lichstrahl braucht, um hin und zurück zu kommen (Laufzeitmessung), wird die entfernung berechnet. 
 
 ## Entfernung = c x t / 2  
-### c : Lichtgeschwindigkeit, t: gemessene Laufzeit. 
+### c : Lichtgeschwindigkeit (~300.000 km/s) , t: gemessene Laufzeit. 
 
 
 ## Öffnungswinkel vernachlässigbar
