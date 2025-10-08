@@ -19,8 +19,19 @@
 ### Der Scanner kann Reflektoren (z. B. Spiegel, reflektierende Markierungen) leicht erkennen, weil sie besonders starkes reflektiertes Signal zurücksenden. Das wird z. B. genutzt zur Positionserkennung oder Navigation in Robotern (sie erkennen ihre Umgebung über fest installierte Reflektoren).
 
 
-### wie funktioniert : Laser schickt Strahlen 3 Untirschidliches von ein anderes. 
-## Begrenzung von Laser Skanner : ?? , Stäkers des Laser ist das problem, Bei Glass gibt es Reflektionsproblem, Steht bei Cross talk weniger als Radar.  
+## Wie funktioniert er allgemein
+### Der Laser schickt mehrere Strahlen in verschiedene Richtungen (meist durch rotierende Spiegel oder Drehbewegung). So wird die gesamte Umgebung Zeile für Zeile abgetastet und eine 3D-Punktwolke erstellt, die die Umgebung beschreibt.
+## Begrenzung von Laser Skanner : ?? , Stäkers des Laser ist das problem, Bei Glass gibt es Reflektionsproblem, Steht bei Cross talk weniger als Radar. 
+
+## Begrenzungen des Laserscanners
+### 1-Leistung des Lasers (Stärke)
+#### Wenn der Laser zu schwach ist, kommt zu wenig Licht zurück → Entfernungsmessung wird ungenau.
+#### Zu stark → kann blenden oder Reflexionsfehler verursachen.
+### 2- Glas oder transparente Oberflächen
+#### Glas reflektiert und bricht Licht gleichzeitig → der Laserstrahl kann „verloren“ gehen oder doppelt reflektiert werden. Deshalb erkennt LIDAR Glasflächen oft nicht oder falsch.
+### 3- Cross Talk (Signalüberschneidung)
+#### Wenn mehrere Laserscanner in der Nähe arbeiten, können ihre Signale sich überlagern. Dieses Problem ist geringer als bei Radar, weil Laser sehr gerichtete Strahlen haben.
+
 ### Wie kann man Reflektionsproblem bei Laser skanner lösen? 
 
 ## Fahrkamera :
