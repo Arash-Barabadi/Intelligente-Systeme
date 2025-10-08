@@ -81,6 +81,9 @@
 
 <img width="410" height="320" alt="image" src="https://github.com/user-attachments/assets/4aaca847-43be-45cd-b6fa-b6ebc4918604" />
 
+<img width="540" height="360" alt="image" src="https://github.com/user-attachments/assets/c9ea8aca-eba3-42be-ab04-23c3372f9626" />
+
+
 ## Mustererkennung (Structured Light)
 ### Hier wird kein Zeitunterschied gemessen, sondern ein Lichtmuster (z. B. Punkte oder Gitter) auf die Szene projiziert.
 ### Eine Kamera beobachtet, wie sich das Muster verformt → daraus wird die Tiefe berechnet.
