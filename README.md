@@ -40,6 +40,9 @@
 # 🚗 Fahrkamera (Vehicle Camera)
 ## Fahrkameras sind Kameras, die in Fahrzeugen (z. B. Autos, Roboter, autonome Fahrzeuge) eingebaut werden, um die Umgebung visuell zu erfassen. Sie sind ein zentrales Element für Umfelderkennung, Spurhaltung, Hinderniserkennung und vieles mehr.
 
+<img width="500" height="375" alt="image" src="https://github.com/user-attachments/assets/71d9bb67-77e9-4f5d-9844-a5c02c1a5f18" />
+
+
 ## Fahrbilder, Pendeln–Tilten–Zoomen: Fahrbilder → Das sind die Bilder, die die Kamera während der Fahrt aufnimmt.
 ## Sie dienen zur Analyse der Straße, Objekte, Verkehrsschilder usw.
 ## Pendel–Tilten–Zoomen (PTZ) → Das beschreibt die Bewegungsarten einer beweglichen Kamera:
@@ -57,6 +60,12 @@
 
 ## Entfernungskamera / Stereokamera :
 ### Eine Entfernungskamera misst, wie weit ein Objekt entfernt ist. Eine Stereokamera besteht aus zwei Kameras, die wie menschliche Augen leicht versetzt angebracht sind.
+
+<img width="540" height="540" alt="image" src="https://github.com/user-attachments/assets/2cb21311-7760-42c6-a2bc-4a59a1ca9d7b" />
+<img width="850" height="567" alt="image" src="https://github.com/user-attachments/assets/07e5fc21-c480-4455-aaa8-911b2216a06f" />
+
+
+
 ## → Durch den Vergleich der beiden Bilder (Disparität) kann die Tiefe (Abstand) berechnet werden.
 ### → Anwendung: Abstandserkennung, 3D-Rekonstruktion, Hinderniserkennung.
 
