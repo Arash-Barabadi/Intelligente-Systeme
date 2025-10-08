@@ -15,7 +15,9 @@
 ## Öffnungswinkel vernachlässigbar
 ### Das bedeutet: Der Laserstrahl ist sehr schmal (nahezu punktförmig). Er hat also kaum einen Öffnungswinkel wie z. B. Radarwellen — dadurch ist die Räumliche Auflösung sehr hoch (präzise Messung kleiner Details).
 
-### Reflektor erkenung 
+## Reflektor erkenung 
+### Der Scanner kann Reflektoren (z. B. Spiegel, reflektierende Markierungen) leicht erkennen, weil sie besonders starkes reflektiertes Signal zurücksenden. Das wird z. B. genutzt zur Positionserkennung oder Navigation in Robotern (sie erkennen ihre Umgebung über fest installierte Reflektoren).
+
 
 ### wie funktioniert : Laser schickt Strahlen 3 Untirschidliches von ein anderes. 
 ## Begrenzung von Laser Skanner : ?? , Stäkers des Laser ist das problem, Bei Glass gibt es Reflektionsproblem, Steht bei Cross talk weniger als Radar.  
