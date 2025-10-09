@@ -115,6 +115,23 @@
 ### 1- Satelliten im Weltraum,
 ### 2- Bodenstationen,
 ### 3- und einem Empfänger (z. B. im Auto, Smartphone oder Messgerät).
+### Grundprinzip: Entfernungsmessung
+### 1- Der GNSS-Empfänger misst die Entfernung zu einem Satelliten, indem er die Laufzeit des Funksignals bestimmt:
+### Entfernung = 𝑐 × 𝑡
+### Damit weiß der Empfänger: „Ich bin irgendwo auf einer Kugel mit Radius = dieser Entfernung um den Satelliten.“ Ein Satellit → Eine Kugel Mit nur einem Satelliten weiß der Empfänger: Er befindet sich irgendwo auf der Oberfläche dieser Kugel. Aber nicht wo genau auf der Kugel. ➡️ Unendlich viele Möglichkeiten.
+### 2- Zwei Satelliten → Schnittkreis zweier Kugeln. Wenn du zwei Satelliten hast, schneiden sich ihre Kugeln → Du befindest dich irgendwo auf dem Schnittkreis dieser beiden Kugeln.➡️ Immer noch nicht eindeutig.
+### 3- Drei Satelliten → Zwei mögliche Punkte. Bei drei Satelliten schneiden sich die drei Kugeln in zwei Punkten. Einer dieser Punkte liegt meist weit außerhalb der Erde, der andere liegt auf oder nahe der Erdoberfläche. ➡️ Der Empfänger kann so deine Position (Länge, Breite) bestimmen.
+### 4- Vier Satelliten → Eindeutige 3D-Position, Damit der Empfänger auch die Höhe und vor allem seinen Uhrenfehler (die Empfängeruhr ist nicht so genau wie die Atomuhr der Satelliten) bestimmen kann, braucht er mindestens vier Satelliten.
+#### Drei Satelliten → theoretisch Position auf der Erde (2D)
+#### Vier Satelliten → zusätzlich Höhe und Zeitkorrektur (3D)
+## Darum misst der GNSS-Empfänger die Signallaufzeit von mehreren Satelliten gleichzeitig – in der Regel mindestens vier, oft 6–12 gleichzeitig, um die Position möglichst genau zu berechnen.
+## Zusammengefast:
+<img width="712" height="192" alt="image" src="https://github.com/user-attachments/assets/90ae347c-70c4-4cd1-a24a-6ea5d26790c3" />
+
+
+
+<img width="526" height="430" alt="image" src="https://github.com/user-attachments/assets/dda588ba-b71e-4c79-be0e-cda161ecf18f" />
+
 
 ### Sattelatennavigation, 
 ### Genauigkeit Ohne Referenzenstation 2m mit 2cm 
