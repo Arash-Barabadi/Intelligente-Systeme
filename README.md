@@ -109,6 +109,12 @@
 <img width="487" height="231" alt="image" src="https://github.com/user-attachments/assets/2c7b19bd-a9f9-41b7-ad60-ceab79404657" />
 
 
-## GNSS
+# GNSS (Global Navigation Satellite System)
+## (z. B. GPS, Galileo, GLONASS, BeiDou).
+## Das System besteht aus:
+### 1- Satelliten im Weltraum,
+### 2- Bodenstationen,
+### 3- und einem Empfänger (z. B. im Auto, Smartphone oder Messgerät).
+
 ### Sattelatennavigation, 
 ### Genauigkeit Ohne Referenzenstation 2m mit 2cm 
