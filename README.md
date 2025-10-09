@@ -136,5 +136,6 @@
 ### Wenn man nur die Satellitensignale verwendet (also keine zusätzliche Korrektur bekommt),
 ### liegt die Positionsgenauigkeit typischerweise bei etwa 2–5 Metern.
 ### Grund: Satellitenuhrenfehler, Ionosphären- und Troposphäreneinflüsse (Verzögerung des Signals in der Atmosphäre), Kleine Bahnunterschiede der Satelliten, Mehrwegeffekte (Signalreflexionen an Gebäuden usw.) ➡️ Diese Fehler führen dazu, dass die berechnete Position leicht verschoben ist → Genauigkeit ca. 2 m.
-### Mit Referenzstation (Differential GNSS / RTK): ~2 cm, Wenn man zusätzlich eine Referenzstation verwendet (z. B. bei Vermessungssystemen), kann man die Genauigkeit stark verbessern. Wie?
+## Mit Referenzstation (Differential GNSS / RTK): ~2 cm, 
+### Wenn man zusätzlich eine Referenzstation verwendet (z. B. bei Vermessungssystemen), kann man die Genauigkeit stark verbessern. Wie?
 ### Eine Referenzstation steht an einem bekannten, festen Ort. Sie empfängt dieselben Satellitensignale wie dein Empfänger. Da ihr Standort genau bekannt ist, kann sie den Fehler zwischen berechnetem und tatsächlichem Standort bestimmen. Diese Korrekturen werden an deinen Empfänger gesendet (z. B. über Funk, Internet). Dein Gerät gleicht damit seine Messung ab → Fehler werden kompensiert. ➡️ Ergebnis: Positionsgenauigkeit bis zu 2 cm! Diese Technik nennt man: DGPS (Differential GPS) oder RTK (Real-Time Kinematic)
