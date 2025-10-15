@@ -3,7 +3,7 @@
 # 2.3 Multisensorik
 
 # Inertiageber
-# Bunper
+# Bumper
 # Sonar
 ## 
 
@@ -146,3 +146,7 @@
 ## Mit Referenzstation (Differential GNSS / RTK): ~2 cm, 
 ### Wenn man zusätzlich eine Referenzstation verwendet (z. B. bei Vermessungssystemen), kann man die Genauigkeit stark verbessern. Wie?
 ### Eine Referenzstation steht an einem bekannten, festen Ort. Sie empfängt dieselben Satellitensignale wie dein Empfänger. Da ihr Standort genau bekannt ist, kann sie den Fehler zwischen berechnetem und tatsächlichem Standort bestimmen. Diese Korrekturen werden an deinen Empfänger gesendet (z. B. über Funk, Internet). Dein Gerät gleicht damit seine Messung ab → Fehler werden kompensiert. ➡️ Ergebnis: Positionsgenauigkeit bis zu 2 cm! Diese Technik nennt man: DGPS (Differential GPS) oder RTK (Real-Time Kinematic)
+
+#### Wichtig : GNSS eignet sicht nicht für Richtung erkennung. 
+
+
