@@ -147,6 +147,17 @@
 ### Wenn man zusätzlich eine Referenzstation verwendet (z. B. bei Vermessungssystemen), kann man die Genauigkeit stark verbessern. Wie?
 ### Eine Referenzstation steht an einem bekannten, festen Ort. Sie empfängt dieselben Satellitensignale wie dein Empfänger. Da ihr Standort genau bekannt ist, kann sie den Fehler zwischen berechnetem und tatsächlichem Standort bestimmen. Diese Korrekturen werden an deinen Empfänger gesendet (z. B. über Funk, Internet). Dein Gerät gleicht damit seine Messung ab → Fehler werden kompensiert. ➡️ Ergebnis: Positionsgenauigkeit bis zu 2 cm! Diese Technik nennt man: DGPS (Differential GPS) oder RTK (Real-Time Kinematic)
 
-#### Wichtig : GNSS eignet sicht nicht für Richtung erkennung. 
+### Wichtig : GNSS eignet sicht nicht für Richtung erkennung. 
 
+# 2.3 Aktoren 
+## Sensoren erfassen der Umwelt und die Aktoren verändernder Umwelt. Mit Effektor
+## Bewegungs des Effektors mit Manipulator mit Freiheitseraden auf Bahn. 
+## Beispiel: 2 dof Gripper (Greifer und Lift)
+## Verfahren Manipulator + Effektor mit Mobiler Plattform
+### Yaw und X richtung
 
+# Defferentialantrieb
+## Antriebsräder mit Stützrad (Caster wheel)
+
+# Omnidirektionalanteil der Laufmaschine
+## X und Y und  Yaw richtung 
